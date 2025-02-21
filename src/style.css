@@ -10,12 +10,6 @@ body {
     font-size: 44px;
     width: 260px;
     height: 400px;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
     box-shadow: 10px 10px 5px darkgreen;
     padding: 10px;
     flex-direction: column;
@@ -45,4 +39,19 @@ body {
 
 .red {
     color: red;
+}
+
+/* button {
+
+} */
+
+.the-game{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+}
+.reset-button{
+    display: flex;
 }
